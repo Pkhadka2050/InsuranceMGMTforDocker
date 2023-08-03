@@ -88,7 +88,7 @@ public class AdminServiceImpl implements AdminService {
 		return null;
 	}
 
-	
+/*	
 	public boolean verifyUsernameAndPassword(String username, String password) {
 		// TODO Auto-generated method stub
 		Admin admin2= adminRepo.verifyUsernameAndPassword(username, password);
@@ -104,7 +104,7 @@ public class AdminServiceImpl implements AdminService {
 		
 		
 	}
-
+*/
 	
 
 }

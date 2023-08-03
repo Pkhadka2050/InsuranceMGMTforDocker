@@ -13,12 +13,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.takeo.entity.Admin;
 import com.takeo.service.impl.AdminServiceImpl;
 
 @RestController
+@RequestMapping("/")
 public class AdminController {
 	
 	@Autowired
@@ -41,13 +43,14 @@ public class AdminController {
 		return getallAdmin;
 		
 	}
-	
+	/*
 	@GetMapping("/viewadmin")
 	public List<Admin> AdminNames(Admin admin)
 	{
 		List<Admin> viewAdminName= adminService.getAdminByUsername(admin);
 		return viewAdminName;
 	}
+	*/
 	
 	@PutMapping("/update")
 	public Admin updateAdmininfo(@RequestBody Admin admin)

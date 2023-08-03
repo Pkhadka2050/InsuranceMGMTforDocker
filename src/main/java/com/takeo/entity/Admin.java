@@ -17,15 +17,15 @@ public class Admin {
 	
 	@Id
 	private long id;
-	@Field("FIRSTNAME")
+	//@Field("FIRSTNAME")
 	private String firstname;
-	@Field("LASTNAME")
+	//@Field("LASTNAME")
 	private String lastname;
-	@Field("EMAIL")
+	//@Field("EMAIL")
 	private String email;
-	@Field("USERNAME")
+	//@Field("USERNAME")
 	private String username;
-	@Field("PASSWORD")
+	//@Field("PASSWORD")
 	private String password;
 
 }
